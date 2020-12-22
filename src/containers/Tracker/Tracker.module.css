@@ -1,0 +1,14 @@
+.Tracker {
+  background-image: url(../../assets/pattern-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+  z-index: 100;
+}
+
+.Tracker h1 {
+  color: white;
+  margin-top: 0px;
+  text-align: center;
+  padding-top: 25px;
+}
