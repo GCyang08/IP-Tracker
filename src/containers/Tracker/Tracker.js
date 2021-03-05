@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import classes from "./Tracker.module.css";
+import "./Tracker.css";
 import Axios from "axios";
 import Maps from "../../components/Maps/Maps";
 import OutputIpAddress from "../../components/OutputIpAddress/OutputIpAddress";
@@ -50,10 +50,9 @@ class Tracker extends Component {
 
   render() {
     return (
-      <div className={classes.Tracker}>
+      <div className="Tracker">
         {this.state.locationData && (
           <div>
-            <h1>IP Address Tracker</h1>
             <UserInput
               onTextChange={this.updateTextValueHandler}
               value={this.state.currentIpAddress}
