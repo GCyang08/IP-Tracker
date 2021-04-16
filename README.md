@@ -1,7 +1,26 @@
+# Project - IP Tracker
 
+## Tool Used For This Project - 
 
+    . JavaScript
+    . React 
+    . Axios
+    . REST API
+    . HTML
+    . CSS
+    . React Leaflet
 
+## How I Created This Project - 
+This project was built from the ground up using React to build this application. To make this project responsive and visual I used CSS and flexbox. In order for me to retrive data and display it onto my application, I used React Leaflet and used Axios to make my http request.
 
+## Overview - 
+This project is from Front End Mentor and for this project the user should be able to:
+
+    . View the optimal layout for each page depending on their device's screen size
+    . See hover states for all interactive elements on the page
+    . See their own IP Address on the map on the initial page load
+    . Search for any IP addresses or domains and see the key information and location
+    
 ## Available Scripts
 
 In the project directory, you can run:
